@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/843d9fdb9d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://i.pinimg.com/474x/0d/34/c9/0d34c9bf64824d1dd89ac7ecc8dbb0ba.jpg" type="image/x-icon" >
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Tanish </span><br>Saraf from IET DAVV</h1>      
+        </div>
+    </div>
+    </div>
+
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about1">
+
+                    <img src="image.png" >
+                </div>
+                <div class="about2">
+                 <h1 class="sub-title">About Me</h1>
+                <p> An Enthusiastic software engineer skilled in front end Web Development, Data Structures 
+                    committed to crafting scalable solutions and embracing cutting-edge technologies 
+                    to tackle challenges. Demonstrated ability to deliver top-notch software 
+                    products within deadlines, fostering collaborative teamwork across diverse projects.
+                    With a passion for continuous learning and problem-solving, I thrive in dynamic environments, 
+                    driven by a dedication to excellence and innovation.</p>
+              
+                     
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p> 
+                       <p class="tab-links " onclick="opentab('Experience')">Experience</p> 
+                       <p class="tab-links" onclick="opentab('Education')">Education</p>   
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Experienced in developing front end web applications using modern frameworks and technologies to create engaging user experiences.</li>
+                            <li><span>Programming Languages </span><br>C++ , HTML , CSS , Javascript , Nodejs</li>
+                            <li><span>Data Structures</span><br>
+                                Expertise in designing and implementing data structures to optimize system performance and facilitate efficient data management.</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>August 2023</span><br>VLSI Course by NIELIT Calicut</li>
+                            <li><span>September 2023</span><br>TCS ESG Internship</li>
+                            <li><span>September 2023</span><br>Verzon Cloud Computing Internship</li>
+                            <li><span>October 2023</span><br>Skolar Web Development Internship </li>
+                            </ul>
+                           </div>
+
+                           <div class="tab-contents" id="Education">
+                          <ul>
+                            <li><span>2021-2025</span><br>Bachelor of Engineering (Electronics & Telecommunication Engineering)<br>
+                                Institute of Engineering and Technology DAVV , Indore
+                            <br><li>
+
+                            <li><span>2017-2021</span><br>Schooling from Campion School Bhopal<br><br>
+                                <strong class="cgpa">
+                                    Class 12th - 85%
+                                    <br>Class 10th - 83%</li>
+                                </strong>
+
+                        
+                         </ul>
+                    </div>
+                </div>
+        </div>
+
+        
+    </div>
+</div>
+
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">My Services</div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Proficient in crafting visually captivating user interfaces using HTML, CSS, and JavaScript, with a focus on modern front-end frameworks like React.js and Node.js.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    
+                    <h2>Data Structures and Algorithms</h2>
+                    <p>
+                        Skilled in designing and implementing efficient data structures to enhance algorithmic efficiency and optimize system performance. Proficient in leveraging various data structures to solve complex problems and improve scalability in software development projects.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Cloud Computing</h2>
+                    <p> Proficient in implementing cloud-native strategies to enhance performance, reliability, and cost-effectiveness across software development initiatives.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="portpolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+       <div class="work-list">
+        <div class="work">
+        <img src="work-1.png" >
+        <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+                Capable of developing a visually appealing and interactive Instagram clone using front-end technologies like HTML, and CSS, offering a user-friendly social media experience.</p>
+            <a href="https://tanishsaraf.github.io/Instagram-Clone/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="work-3.png" >
+        <div class="layer">
+            <h3>E-Commerce App</h3>
+            <p>Experienced in replicating the user interface and functionality of Spotify through front-end technologies like HTML, CSS and JavaScript, ensuring a seamless and intuitive music streaming experience.</p>
+            <a href="https://tanishsaraf.github.io/Ecommerce/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="work-2.png" >
+        <div class="layer">
+            <h3>Food Delivery App</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sunt ut temporibus fuga doloribus modi.</p>
+            <a href="https://tanishsaraf.github.io/Food-app-Clone/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+        </div>
+            
+      </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1> 
+                    <p><i class="fa-solid fa-paper-plane"></i>tanishsaraf0709@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+918109692081</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/tanishsaraf"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/_tanishh.__/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/tanish-saraf-25969a228/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <a href="tanish saraf.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"> 
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Tanish Saraf IET DAVV INDORE</p>
+
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }    
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); 
+            
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+   </script>
+
+</body>
+
+
+</html>   
