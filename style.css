@@ -195,14 +195,12 @@ width: 100%;
 }
 .work img{
     width: 100%;
+    height: 360px;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s ;
 }
 
-.wwd{
-height: 360px;
-}
 
 .layer{
     width: 100%;
